@@ -56,7 +56,7 @@ jobs:
 
           chmod +x gradlew
 
-          ./gradlew assembleProdDebuggable
+          ./gradlew assembleDebug
 
       # Uploads the folder or file in path to GitHub
 
