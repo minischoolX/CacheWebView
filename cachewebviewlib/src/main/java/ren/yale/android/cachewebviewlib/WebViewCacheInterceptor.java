@@ -172,7 +172,7 @@ public class WebViewCacheInterceptor implements WebViewRequestInterceptor {
         String extension = MimeTypeMapUtils.getFileExtensionFromUrl(url);
 
 
-        if (TextUtils.isEmpty(extension)) {
+/**        if (TextUtils.isEmpty(extension)) {
             return false;
         }
         if (mCacheExtensionConfig.isMedia(extension)) {
@@ -181,7 +181,7 @@ public class WebViewCacheInterceptor implements WebViewRequestInterceptor {
         if (!mCacheExtensionConfig.canCache(extension)) {
             return false;
         }
-
+*/
         return true;
     }
 
